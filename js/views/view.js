@@ -1,8 +1,8 @@
 var view = {    
-    initial_render(fuel, altitude)  {
+    initialize_render(fuel, altitude)  {
         var fuelItem = document.getElementById("fuel");
         var altitudeItem = document.getElementById("altitude");
-        fuelItem.innerHTML = fuel;
-        altitudeItem.innerHTML = altitude;
+        fuelItem.innerHTML = model.fuel;
+        altitudeItem.innerHTML = model.altitude;
     }
 };
